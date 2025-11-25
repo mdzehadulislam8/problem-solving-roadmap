@@ -1,4 +1,4 @@
-# Competitive Problem Solving — Course Collection
+# Competitive Problem Solving
 
 ![Repository Banner](https://img.shields.io/badge/Competitive-Programming-blue?style=for-the-badge)
 
