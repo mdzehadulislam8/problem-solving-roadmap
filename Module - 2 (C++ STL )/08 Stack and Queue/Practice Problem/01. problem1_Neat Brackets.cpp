@@ -1,5 +1,3 @@
-//https://toph.co/p/neat-brackets
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -9,11 +7,11 @@ int main(){
 
     stack<char> st;
     for(auto& it : s){
-        if(it = '('){
+        if(it == '('){
             st.push(it);
         }else if(it == ')'){
             if(st.empty()){
-                cout << "NO" << endl;
+                cout << "No" << endl; 
                 return 0;
             }else{
                 st.pop();
@@ -27,4 +25,5 @@ int main(){
         cout << "No" << endl;
     }
 
-}  
+    return 0;
+}
