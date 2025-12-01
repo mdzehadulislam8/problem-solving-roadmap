@@ -9,7 +9,7 @@ void solve(){
         string s;
         cin >> s;
         if(mp[s]==0){
-            cout << "OK" << "\n";
+            cout << "OK" << "\n" ;
             mp[s]=1;
         }
         else{
