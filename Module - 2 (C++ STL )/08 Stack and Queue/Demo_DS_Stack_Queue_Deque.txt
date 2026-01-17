@@ -1,0 +1,130 @@
+==================================================
+                STACK, QUEUE & DEQUE
+==================================================
+
+
+1. STACK (LIFO – Last In, First Out)
+----------------------------------
+
+A Stack is a data structure where
+the element that is inserted last is removed first.
+
+Real-life example:
+A stack of books or plates
+
+- Books are placed from the top
+- Books are removed from the top
+
+
+Example & Result:
+
+Push order:
+10 -> 20 -> 30
+
+Stack representation:
+
+Top
+ |
+ | 30
+ | 20
+ | 10
+
+Pop operation:
+Pop -> 30
+
+Result:
+30 is removed first because it was inserted last.
+
+That is why it follows:
+Last In -> First Out
+
+Uses:
+- Function calls (Call Stack)
+- Undo / Redo operations
+- Expression evaluation
+
+
+--------------------------------------------------
+
+
+2. QUEUE (FIFO – First In, First Out)
+------------------------------------
+
+A Queue is a data structure where
+the element that is inserted first is removed first.
+
+Real-life example:
+People standing in a line
+
+- The person who comes first is served first
+
+
+Example & Result:
+
+Enqueue order:
+10 -> 20 -> 30
+
+Queue representation:
+
+Front -> 10 | 20 | 30 <- Rear
+
+Dequeue operation:
+Dequeue -> 10
+
+Result:
+10 is removed first because it was inserted first.
+
+That is why it follows:
+First In -> First Out
+
+Uses:
+- CPU scheduling
+- Printer queue
+- Breadth First Search (BFS)
+
+
+--------------------------------------------------
+
+
+3. DEQUE (Double Ended Queue)
+----------------------------
+
+A Deque is an advanced form of queue where
+elements can be inserted and removed from both
+the front and the rear.
+
+Real-life example:
+Train coaches
+
+- Coaches can be added from the front or the back
+- Coaches can be removed from the front or the back
+
+
+Example & Result:
+
+Operations:
+InsertFront(20)
+InsertBack(10)
+InsertBack(30)
+
+Deque representation:
+
+Front -> 20 | 10 | 30 <- Rear
+
+Delete operations:
+DeleteFront -> 20
+DeleteBack  -> 30
+
+Result:
+Remaining element = 10
+
+That is why it is called:
+Insertion and deletion from both ends
+
+Uses:
+- Sliding Window problems
+- Palindrome checking
+- Implementing Stack and Queue
+
+
+==================================================
