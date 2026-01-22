@@ -20,7 +20,7 @@ int main(){
     
     q.pop(); //0(1)
     // q = {5}
-    cout<<q.front()<<endl;
+    cout<<q.front()<<endl << endl;
 
 
     /*
